@@ -1,14 +1,6 @@
 /* -----------------------------------------------------------*/
 /* >>>>>>>> Custom Styles <<<<<<<<<<-*/
 /* ----------------------------------------------------------*/
-.page_demo #health_maintenance_block {
-    position: absolute;
-    right: 0;
-    width: 20%;
-    top: 48px;
-    height: 17vh;
-    margin-bottom: 0;
-}
 
 #super_frame{
 	display:flex;
