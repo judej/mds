@@ -2,37 +2,37 @@
 /* >>>>>>>> Custom Styles <<<<<<<<<<-*/
 /* ----------------------------------------------------------*/
 
-#super_frame{
+.page_demo #super_frame{
 	display:flex;
 	width:100% !important;
 }
-#col_l{
+.page_demo #col_l{
 	width:20%;
 	min-height:100vh;
 }
-#photo_block{
+.page_demo #photo_block{
 	height:25vh;
 }
-#pt_photo{
+.page_demo #pt_photo{
 	width:100%;
 	background-color: #000 !important;
 	margin-bottom: 0;
 	height:100%;
 }
-#contact_block{
+.page_demo #contact_block{
 	height:20vh !important;
 }
 
-#contact_block .module{
+.page_demo #contact_block .module{
 	height: 100%;
 }
-.module{
+.page_demo .module{
 	margin-bottom:0px;
 }
-#contact_block{
+.page_demo #contact_block{
 	height: 133px;
 }
-#block_stats{
+.page_demo #block_stats{
 	position:absolute;
 	left:0;
 	width:20%;
@@ -41,12 +41,12 @@
 	height:20vh;
 	margin-left: 0;
 }
-#block_stats .block_content{
+.page_demo #block_stats .block_content{
 	background-color:#fff;
 	height: calc(20vh - 59px) !important;
 	overflow: auto;
 }
-#block_allergies{
+.page_demo #block_allergies{
 	position:absolute;
 	left:0;
 	width:20%;
@@ -55,12 +55,12 @@
 	height:15vh;
 	margin-left: 0;
 }
-#block_allergies .block_content{
+.page_demo #block_allergies .block_content{
 	background-color:#fff;
 	height: calc(15vh - 43px);
 	overflow: auto;
 }
-#rx_block{
+.page_demo #rx_block{
 	position:absolute;
 	left:0;
 	width:20%;
@@ -69,68 +69,68 @@
 	height:20vh;
 	margin-left: 0;
 }
-#rx_block .block_content{
+.page_demo #rx_block .block_content{
 	background-color:#fff;
 	height: calc(20vh - 59px);
 	overflow: auto;
 }
-#rx_block .block_foot{
+.page_demo #rx_block .block_foot{
 	background-color:#fff;
 }
-#dr_note_block, #block_billing{
+.page_demo #dr_note_block, #block_billing{
 	display:none;
 }
-.pt-blocks{
+.page_demo .pt-blocks{
 	display: flex;
 	flex-wrap: wrap;
 	width:60% !important;
 	justify-content: space-evenly;
 	height:100vh;
 }
-#block_pmh{
+.page_demo #block_pmh{
 	order:-1;
 	width: 48%;
 	margin-bottom:0px;
 	margin-left: 0px;
 	height: 60vh;
 }
-#block_pmh .block_content{
+.page_demo #block_pmh .block_content{
 	background-color:#fff;
 	height: calc(60vh - 43px);
 	overflow: auto;
 }
-#soap_block{
+.page_demo #soap_block{
 	order:0;
 	width: 48%;
 	margin-bottom:0px;
 	margin-left: 0px;
 	min-height: 80vh;
 }
-#soap_block .block_content{
+.page_demo #soap_block .block_content{
 	background-color:#fff;
 	height: calc(80vh - 59px);
 	overflow: auto;
 }
-#admin_note_block{
+.page_demo #admin_note_block{
 	order:4;
 }
-#social_note_block{
+.page_demo #social_note_block{
 	order:4;
 }
-#block_orders{
+.page_demo #block_orders{
 	order:3;
 	width:48% !important;
 	margin-left: 0px;
 	height: 20vh;
 	
 }
-#block_orders .block_content{
+.page_demo #block_orders .block_content{
 	background-color:#fff;
 	height: calc(20vh - 43px);
 	overflow: auto;
 	
 }
-#documents_block{
+.page_demo #documents_block{
 	order: 0;
 	margin-top: 0 !important;
 	width: 48% !important;
@@ -139,15 +139,15 @@
 	position: relative;
 	top: -20vh;
 }
-#documents_block .block_content{
+.page_demo #documents_block .block_content{
 	background-color:#fff;
 	height: calc(40vh - 59px);
 	overflow: auto;
 }
-#documents_block .important_docs{
+.page_demo #documents_block .important_docs{
 	overflow: auto;
 }
-#health_maintenance_block{
+.page_demo #health_maintenance_block{
 	position:absolute;
 	right:0;
 	width:20%;
@@ -156,11 +156,11 @@
 	margin-bottom: 0;
 }
 
-#health_maintenance_block .module{
+.page_demo #health_maintenance_block .module{
 	height: calc(17vh - 39px);
 }
 
-#vaccine_block{
+.page_demo #vaccine_block{
 	position:absolute;
 	right:0;
 	width:20%;
@@ -169,10 +169,10 @@
 	margin-bottom: 0;
 }
 
-#vaccine_block .module{
+.page_demo #vaccine_block .module{
 	height: calc(17vh - 39px);
 }
-#admin_note_block{
+.page_demo #admin_note_block{
 	position:absolute;
 	right:0;
 	width:20%;
@@ -180,16 +180,16 @@
 	height:17vh;
 	margin-bottom: 0;
 }
-#admin_note_block .block_content{
+.page_demo #admin_note_block .block_content{
 	    background: white;
 			height: calc(17vh - 59px);
 	overflow: auto;
 }
-#admin_note_block .block_foot{
+.page_demo #admin_note_block .block_foot{
 	    background: white;
 }
 
-#relationships_block{
+.page_demo #relationships_block{
 	position:absolute;
 	right:0;
 	width:20%;
@@ -198,10 +198,10 @@
 	margin-bottom: 0;
 }
 
-#relationships_block .module{
+.page_demo #relationships_block .module{
 	height: calc(17vh - 39px);
 }
-#social_note_block{
+.page_demo #social_note_block{
 	position:absolute;
 	right:0;
 	width:20%;
@@ -210,11 +210,11 @@
 	margin-bottom: 0;
 }
 
-#social_note_block .block_content{
+.page_demo #social_note_block .block_content{
 	height: calc(16vh - 59px);
 	overflow: auto;
 }
-#facilities_block{
+.page_demo #facilities_block{
 	position:absolute;
 	right:0;
 	width:20%;
@@ -223,14 +223,14 @@
 	margin-bottom: 0;
 }
 
-#facilities_block .module{
+.page_demo #facilities_block .module{
 	height: calc(16vh - 39px);
 }
-#super_frame{
+.page_demo #super_frame{
 	height:auto;
 	padding:0;
 	min-height: auto !important;
 }
-.load_time{
+.page_demo .load_time{
 	display:none;
 }
