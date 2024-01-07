@@ -111,7 +111,7 @@
 	height: calc(80vh - 59px);
 	overflow: auto;
 }
-.page_demo #admin_note_block{
+.page_demo #dr_note_block{
 	order:4;
 }
 .page_demo #social_note_block{
@@ -172,7 +172,7 @@
 .page_demo #vaccine_block .module{
 	height: calc(17vh - 39px);
 }
-.page_demo #admin_note_block{
+.page_demo #dr_note_block{
 	position:absolute;
 	right:0;
 	width:20%;
@@ -180,12 +180,12 @@
 	height:17vh;
 	margin-bottom: 0;
 }
-.page_demo #admin_note_block .block_content{
+.page_demo #dr_note_block .block_content{
 	    background: white;
 			height: calc(17vh - 59px);
 	overflow: auto;
 }
-.page_demo #admin_note_block .block_foot{
+.page_demo #dr_note_block .block_foot{
 	    background: white;
 }
 
